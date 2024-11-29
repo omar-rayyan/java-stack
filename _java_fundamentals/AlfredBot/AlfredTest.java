@@ -29,7 +29,7 @@ public class AlfredTest {
 
         // Test guestGreeting with a name
         System.out.println("Testing guestGreeting with name:");
-        System.out.println(alfredBot.guestGreeting("Beth Kane"));
+        System.out.println(alfredBot.guestGreeting(testGuestGreeting));
         System.out.println();
 
         // Test dateAnnouncement
@@ -40,16 +40,16 @@ public class AlfredTest {
         // Test respondBeforeAlexis
         System.out.println("Testing respondBeforeAlexis:");
         System.out.println("Case with 'Alexis':");
-        System.out.println(alfredBot.respondBeforeAlexis("Alexis! Play some music."));
+        System.out.println(alfredBot.respondBeforeAlexis(alexisTest));
         System.out.println("Case with 'Alfred':");
-        System.out.println(alfredBot.respondBeforeAlexis("Alfred, where are my socks?"));
+        System.out.println(alfredBot.respondBeforeAlexis(alfredTest));
         System.out.println("Case with no keywords:");
-        System.out.println(alfredBot.respondBeforeAlexis("I need to focus on my training."));
+        System.out.println(alfredBot.respondBeforeAlexis(notRelevantTest));
         System.out.println();
 
         // Test overloaded guestGreeting
         System.out.println("Testing overloaded guestGreeting (name and day period):");
-        System.out.println(alfredBot.guestGreeting("Bruce Wayne", "evening"));
+        System.out.println(alfredBot.guestGreeting(testGuestGreeting, "evening"));
         System.out.println();
 
         // Test overloaded guestGreeting with no parameters
