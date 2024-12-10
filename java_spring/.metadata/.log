@@ -112,3 +112,162 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframe
 
 !ENTRY org.eclipse.mylyn.tasks.ui 2 0 2024-12-10 09:55:41.863
 !MESSAGE No search provider was registered. Tasks search is not available.
+!SESSION 2024-12-10 21:47:41.141 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-10 21:47:43.137
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-10 21:47:44.152
+!MESSAGE Logback config file: /mnt/second-ssd/Axsos/java_stack/java_spring/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-12-10 21:47:44.535
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-10 21:47:44.535
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-12-10 21:47:44.831
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-10 21:47:44.831
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2024-12-10 21:47:47.591
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-10 21:50:50.425
+!MESSAGE Classpath changed for project: helloWorld
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2024-12-10 21:50:51.049
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2024-12-10 21:50:51.049
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.preview.adapter.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2024-12-10 21:50:51.049
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.tomcat.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2024-12-10 21:50:51.050
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.http.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2024-12-10 21:50:51.050
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.preview.adapter.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-10 21:50:52.001
+!MESSAGE Classpath changed for project: helloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-10 21:50:52.001
+!MESSAGE Boot project ADDED: helloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-10 21:50:52.001
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-10 21:50:52.016
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-10 21:50:52.028
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/opt/spring-tool-suite/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.5.v20241023-1957/jre/bin/java
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=/mnt/second-ssd/Axsos/java_stack/java_spring/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1733860252027
+-Dlanguageserver.hover-timeout=225
+-jar
+/opt/spring-tool-suite/plugins/org.springframework.tooling.boot.ls_1.59.0.202411281450/servers/spring-boot-language-server/spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-10 21:50:52.029
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-12-10 21:50:52.035
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 6138
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-10 21:50:52.522
+!MESSAGE Classpath changed for project: helloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-10 21:51:21.151
+!MESSAGE Classpath changed for project: helloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-10 21:51:21.151
+!MESSAGE Boot project REMOVED: helloWorld
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-10 21:51:21.714
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/helloWorld
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-10 21:51:22.079
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/helloWorld
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-10 21:51:22.326
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/helloWorld
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-10 21:51:22.586
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/helloWorld
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-10 21:51:22.835
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/helloWorld
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-10 21:51:23.963
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/helloWorld
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-10 21:51:24.199
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/helloWorld
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-10 21:51:25.194
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/helloWorld
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-10 21:51:25.605
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/helloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-10 21:51:48.805
+!MESSAGE Classpath changed for project: helloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-10 21:51:48.806
+!MESSAGE Boot project ADDED: helloWorld
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-12-10 21:54:53.615
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-10 21:55:13.144
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.getResolutions(LSPCodeActionMarkerResolution.java:105)
+	at org.springframework.tooling.boot.ls.markers.LSPBootCodeActionMarkerResolution.getResolutions(LSPBootCodeActionMarkerResolution.java:25)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.getResolutions(MarkerHelpRegistry.java:393)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectMarkerProposals(JavaCorrectionProcessor.java:318)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:277)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getMarkerAnnotationFixes(ProblemHover.java:154)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-10 22:05:06.352
+!MESSAGE Classpath changed for project: Routes
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-10 22:05:06.353
+!MESSAGE Boot project ADDED: Routes
