@@ -2116,3 +2116,587 @@ Binding(CTRL+SHIFT+/,
 
 !ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:18:53.778
 !MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-12 14:24:47.491
+!MESSAGE Classpath changed for project: DisplayDate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-12 14:24:47.492
+!MESSAGE Boot project ADDED: DisplayDate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-12 14:24:47.625
+!MESSAGE Classpath changed for project: DisplayDate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-12 14:25:12.597
+!MESSAGE Classpath changed for project: HelloHuman
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-12 14:25:12.597
+!MESSAGE Boot project REMOVED: HelloHuman
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-12 14:25:12.597
+!MESSAGE Classpath changed for project: PathVariables
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-12 14:25:12.597
+!MESSAGE Boot project REMOVED: PathVariables
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-12 14:25:12.598
+!MESSAGE Classpath changed for project: Routes
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-12 14:25:12.598
+!MESSAGE Boot project REMOVED: Routes
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-12 14:25:12.598
+!MESSAGE Classpath changed for project: helloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-12 14:25:12.599
+!MESSAGE Boot project REMOVED: helloWorld
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:25:12.601
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:25:12.601
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:25:12.602
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:25:12.602
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:25:12.605
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:25:12.606
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-12-12 14:25:13.379
+!MESSAGE Launch configuration PathVariablesApplication references non-existing project PathVariables.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PathVariablesApplication references non-existing project PathVariables.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2024-12-12 14:25:13.379
+!MESSAGE Launch configuration PathVariablesApplication references non-existing project PathVariables.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-12-12 14:25:13.380
+!MESSAGE Launch configuration PathVariablesApplication references non-existing project PathVariables.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PathVariablesApplication references non-existing project PathVariables.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2024-12-12 14:25:13.380
+!MESSAGE Launch configuration PathVariablesApplication references non-existing project PathVariables.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-12-12 14:25:13.394
+!MESSAGE Launch configuration PathVariablesApplication references non-existing project PathVariables.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PathVariablesApplication references non-existing project PathVariables.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2010)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2024-12-12 14:25:13.394
+!MESSAGE Launch configuration PathVariablesApplication references non-existing project PathVariables.
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-12-12 14:25:27.705
+!MESSAGE An internal error occurred during: "Loading initializr model".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jface.wizard.IWizardContainer.getShell()" because the return value of "org.eclipse.jface.wizard.IWizard.getContainer()" is null
+	at org.springframework.ide.eclipse.boot.wizard.starters.DependencyPage.runWithWizardProgress(DependencyPage.java:190)
+	at org.springframework.ide.eclipse.boot.wizard.starters.DependencyPage.lambda$2(DependencyPage.java:125)
+	at org.springframework.ide.eclipse.boot.wizard.starters.AddStartersWizardModel$1.run(AddStartersWizardModel.java:271)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-12 14:25:42.847
+!MESSAGE Classpath changed for project: DisplayDate
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:25:53.416
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:25:53.417
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:25:53.417
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:25:53.418
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:25:53.421
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:25:53.423
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:29:02.711
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:29:02.711
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:29:02.711
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:29:02.712
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:29:02.714
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:29:02.715
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-12-12 14:29:54.628
+!MESSAGE OperationCanceledException computing hover information in DateController.java at offset 466
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:239)
+	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:225)
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:186)
+	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:78)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:127)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:1142)
+	at org.eclipse.jdt.internal.core.BinaryType.getFlags(BinaryType.java:357)
+	at org.eclipse.jdt.internal.core.SearchableEnvironmentRequestor.acceptType(SearchableEnvironmentRequestor.java:127)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypesInBinaryPackage(NameLookup.java:1510)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1442)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
+	at org.eclipse.jdt.internal.core.NameLookup.findAllTypes(NameLookup.java:422)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1418)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1348)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:964)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:766)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:592)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:571)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:1048)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:167)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:471)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:461)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:122)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.lambda$0(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
+	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5683)
+	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:709)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+	Suppressed: java.lang.Throwable: Source line 23 :
+-----
+	    return "index.jsp";
+	}
+	
+	@RequestMapping("date")
+	public String date() {
+	    return "date.jsp";
+	}
+	
+	@RequestMapping("time")
+	public String time() {
+	    return "|date.jsp";
+-----
+		at org.eclipse.jdt.internal.ui.util.SelectionUtil.logException(SelectionUtil.java:150)
+		at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:124)
+		... 10 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-12-12 14:34:09.007
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-12-12 14:34:09.044
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.6.3 from path "/opt/spring-tool-suite/plugins/org.eclipse.wildwebdeveloper_1.2.4.202411181846/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-12-12 14:34:09.048
+!MESSAGE [Info]	Typescript Server version info: {version=5.6.3, source=user-setting}
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:34:28.402
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:34:28.402
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:34:28.402
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:34:28.403
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:34:28.405
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:34:28.406
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:34:28.706
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/css/style.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:34:52.349
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/css/style.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:36:38.184
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:36:38.836
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:36:38.842
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:36:43.871
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:36:43.876
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:36:43.881
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:36:45.902
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:36:46.719
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:36:46.724
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:36:47.551
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:36:48.716
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:36:48.726
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:36:50.724
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:36:50.729
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:36:50.733
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:39:09.545
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:39:09.545
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:39:09.546
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:39:09.546
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:39:09.548
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-12-12 14:39:09.549
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-12-12 14:39:09.911
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:09.914
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:09.921
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:09.927
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:11.436
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:12.246
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:12.251
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:15.241
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:15.994
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:15.999
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:16.988
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:18.277
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:18.285
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:21.471
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:21.476
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:21.481
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:23.507
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:24.440
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:24.447
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:39:24.453
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:07.223
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:07.227
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:07.232
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:34.871
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:34.876
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:34.882
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:36.888
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:36.894
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:36.899
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:38.162
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:38.167
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:38.171
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:39.542
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:39.548
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:39.554
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:41.238
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:41.244
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:41.249
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:42.400
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:42.405
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:42.410
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:44.539
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:44.543
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:44.547
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:50.385
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:50.389
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:50.394
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:53.466
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:53.471
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:53.475
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:54.628
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:54.634
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:54.639
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:54.673
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:55.630
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:55.636
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:55.706
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:56.637
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:56.642
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:57.714
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:57.719
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:40:57.724
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/java/DisplayDate/project/com/DateController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:41:27.161
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/css/style.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:43:45.156
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/app.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:43:47.575
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/app.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:43:49.330
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/app.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-12-12 14:43:49.966
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:43:51.007
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/app.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:43:53.691
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/app.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:43:54.211
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/app.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:43:59.805
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/app.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:44:05.729
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/app.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-12-12 14:44:27.588
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:44:28.019
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/date.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:44:32.723
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/date.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:44:34.140
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/date.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:45:00.588
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/app.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:45:01.982
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/app.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:45:02.861
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/app.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:45:06.237
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/date.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:45:06.871
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/date.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-12-12 14:45:08.107
+!MESSAGE [Error]	Unexpected resource file:///mnt/second-ssd/Axsos/java_stack/java_spring/DisplayDate/src/main/resources/static/js/date.js

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.nav-bar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 5vh;
+}
+
+.nav-link {
+	display: inline-block;
+}
+.displayed-date-time {
+	text-align: center;
+	margin: 10vh auto;
+	color: darkblue;
+}
