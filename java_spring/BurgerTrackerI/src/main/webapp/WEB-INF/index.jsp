@@ -12,7 +12,7 @@
 <body>
     <div class="container mt-5">
         <h1 class="mb-4">Burger Tracker</h1>
-        <table class="table table-striped">
+        <table class="table table-striped text-center">
             <thead>
                 <tr>
                     <th scope="col">Burger Name</th>
