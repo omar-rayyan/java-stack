@@ -9,7 +9,9 @@ import jakarta.persistence.JoinColumn;
 
 import jakarta.persistence.*;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 
 @Entity
 @Table(name="ninja")
@@ -18,13 +20,16 @@ public class Ninja {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private long id;
     
-    @NotNull(message = "not null")
+    @NotNull(message = "Cannot be null")
+	@Size(min=1,message = "Please enter the first name.")
     private String firstName;
 
-    @NotNull(message = "not null")
+    @NotNull(message = "Cannot be null")
+    @Size(min=1,message = "Please enter the last name.")
     private String lastName;
 
-    @NotNull(message = "not null")
+    @NotNull(message = "Cannot be null")
+    @Min(value=1,message = "Please enter a valid age.")
     private int age;
 
     @ManyToOne(fetch= FetchType.LAZY)

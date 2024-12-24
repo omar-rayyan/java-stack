@@ -16,8 +16,8 @@ public class Dojo {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@NotNull(message = "This Field Cannot be Emptey ")
-	@Size(min=1,max=20,message = "not null")
+	@NotNull(message = "Dojo name cannot be null.")
+	@Size(min=1,message = "Please enter a name for the dojo.")
 	private String name;
 	
 	@Column(updatable = false)
