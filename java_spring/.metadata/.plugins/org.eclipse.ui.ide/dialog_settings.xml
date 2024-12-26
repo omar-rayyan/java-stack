@@ -89,6 +89,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/mnt/second-ssd/Axsos/java_stack/java_spring/LoginAndRegistration"/>
 			<item value="/home/omar/Desktop/Axsos/java_stack/java_spring/DojosAndNinjas"/>
 			<item value="/home/omar/Desktop/Axsos/java_stack/java_spring/BooksAPI"/>
 		</list>
